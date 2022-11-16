@@ -1,0 +1,1163 @@
+﻿body, ul, h4, p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    outline: none;
+}
+
+.error {
+    font-size: 60px;
+    color: Red;
+    height: 2000px;
+    background: yellow;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+body {
+    font: normal 12px Sans-Serif;
+    background: #e4e8eb url(headImg/head.png) repeat-x;
+}
+
+.clr {
+    clear: both;
+}
+
+#head {
+    width: 975px;
+    margin: 0 auto;
+    background: #fff url(headImg/head.png) repeat-x;
+}
+
+#page {
+    width: 970px;
+    margin: 0 auto 8px auto;
+    background: #e4e8eb;
+}
+
+#head1 {
+    height: 19px;
+    padding: 5px 0 0 17px;
+    background: url(headImg/h1.png) no-repeat 1px 5px;
+}
+
+    #head1 > a {
+        color: #338;
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+        #head1 > a:hover {
+            text-decoration: underline;
+        }
+
+#head2 {
+    height: 58px;
+    background: url(headImg/h2.png) no-repeat 0 0;
+    padding-bottom: 8px;
+}
+
+    #head2 > div.form {
+        width: 692px;
+        border: 1px solid #999;
+        border-bottom-color: #777;
+        border-top-color: #ccc;
+        background: url(headImg/bgform.png) repeat-x;
+        padding: 4px;
+        float: right;
+        margin-right: 5px;
+        margin-top: 2px;
+    }
+
+        #head2 > div.form > form > input.txt {
+            border: 1px solid #ccc;
+            border-top-color: #888;
+            border-left-color: #888;
+            height: 23px;
+            width: 466px;
+            padding: 5px;
+            background: #fcfce5;
+        }
+
+        #head2 > div.form > form > a {
+            display: block;
+            float: right;
+            width: 208px;
+            height: 26px;
+            background: url(headImg/search.png) repeat-x;
+            border: 1px solid #aaa;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bolder;
+            font-size: 16px;
+            color: #000;
+            padding-top: 7px;
+        }
+
+#hmain > div.c1 {
+    float: left;
+    border: 1px solid #ccc;
+    border-bottom-color: #fff;
+    background: #fff url(hmainImg/home.png) no-repeat 7px 7px;
+}
+
+#hmain > div.c2 {
+    float: left;
+    border: 1px solid #ccc;
+    border-left: 0;
+    position: relative;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+    #hmain > div.c2 > img {
+        display: block;
+        position: absolute;
+        left: 14px;
+        top: 7px;
+    }
+
+#hmain > div.c3 {
+    float: left;
+    width: 433px;
+    height: 22px;
+    border: 1px solid #ccc;
+    border-top-color: #e4e8eb;
+    border-left: 0;
+    padding-right: 10px;
+    padding-top: 16px;
+}
+
+#hmain > div.c4 {
+    float: left;
+    border: 1px solid #ccc;
+    border-top-color: #e4e8eb;
+    border-left: 0;
+    background: url(hmainImg/hi.png) no-repeat 7px 6px;
+}
+
+#hmain > div.c5 {
+    float: left;
+    border: 1px solid #ccc;
+    border-top-color: #e4e8eb;
+    border-left: 0;
+    background: url(hmainImg/mail.png) no-repeat 9px 5px;
+}
+
+#hmain > div > a {
+    display: block;
+    float: left;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+    #hmain > div > a > span {
+        font-size: 11px;
+        font-weight: lighter;
+        color: #666;
+    }
+
+#hmain > div.c1 > a {
+    width: 112px;
+    height: 31px;
+    padding-top: 7px;
+    padding-right: 9px;
+}
+
+    #hmain > div.c1 > a > span {
+        padding-left: 38px;
+    }
+
+#hmain > div.c2 > a {
+    width: 86px;
+    height: 31px;
+    padding-top: 7px;
+    padding-left: 20px;
+    background: url(hmainImg/bgus.png) repeat-x;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+}
+
+    #hmain > div.c2 > a > span {
+        padding-left: 12px;
+    }
+
+    #hmain > div.c2 > a:hover {
+        background: url(hmainImg/hoverus.png) repeat-x;
+    }
+
+#hmain > div.c3 > a {
+    width: 35px;
+    float: right;
+    border: 1px solid #bbb;
+    font-weight: lighter;
+    text-align: center;
+    color: #119;
+    padding-bottom: 2px;
+}
+
+    #hmain > div.c3 > a:hover {
+        background: #fff;
+        text-decoration: underline;
+    }
+
+#hmain > div.c4 > a {
+    width: 154px;
+    height: 31px;
+    padding-top: 7px;
+    padding-left: 15px;
+}
+
+    #hmain > div.c4 > a:hover {
+        text-decoration: underline;
+        background: #fff url(hmainImg/hi.png) no-repeat 7px 6px;
+    }
+
+#hmain > div.c5 > a {
+    width: 119px;
+    height: 31px;
+    padding-top: 7px;
+    padding-left: 6px;
+}
+
+    #hmain > div.c5 > a:hover {
+        background: #fff url(hmainImg/mail2.png) no-repeat 9px 5px;
+    }
+
+    #hmain > div.c5 > a > span.s1 {
+        color: #000;
+        text-align: center;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: bolder;
+    }
+
+        #hmain > div.c5 > a > span.s1:hover {
+            text-decoration: underline;
+        }
+
+    #hmain > div.c5 > a > span.s2 {
+        padding-left: 37px;
+    }
+
+#main {
+    width: 968px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: 0;
+    padding: 10px 0;
+}
+
+    #main > div.col1 {
+        float: left;
+        width: 189px;
+        min-height: 200px;
+        border: 1px solid #ccc;
+        border-left: 0;
+    }
+
+        #main > div.col1 > h4 {
+            height: 22px;
+            background: url(main/col1/bgh4.png) repeat-x;
+            padding: 7px 10px 0 8px;
+            font-size: 12px;
+            border-bottom: 1px solid #ccc;
+        }
+
+            #main > div.col1 > h4 > a {
+                display: block;
+                float: right;
+                text-decoration: none;
+                color: rgb(49,84,102);
+                font-size: 11px;
+                padding-left: 16px;
+                background: url(main/col1/Edit.png) no-repeat 0 1px;
+            }
+
+        #main > div.col1 > ul {
+            list-style-type: none;
+        }
+
+            #main > div.col1 > ul > li > a {
+                display: block;
+                text-decoration: none;
+                color: #333;
+                height: 20px;
+                border-bottom: 1px solid #ddd;
+                padding: 7px 0 0 37px;
+                font-weight: bold;
+            }
+
+                #main > div.col1 > ul > li > a:hover {
+                    text-decoration: underline;
+                }
+
+            #main > div.col1 > ul > li.r1 > a {
+                background: url(main/col1/mail.png) no-repeat 6px 5px;
+            }
+
+            #main > div.col1 > ul > li.r2 > a {
+                background: url(main/col1/news.gif) no-repeat 8px 5px;
+            }
+
+            #main > div.col1 > ul > li.r3 > a {
+                background: url(main/col1/ent.gif) no-repeat 8px 5px;
+            }
+
+            #main > div.col1 > ul > li.r4 > a {
+                background: url(main/col1/screen.gif) no-repeat 8px 5px;
+            }
+
+            #main > div.col1 > ul > li.r5 > a {
+                background: url(main/col1/sport.gif) no-repeat 8px 5px;
+            }
+
+            #main > div.col1 > ul > li.r6 > a {
+                background: url(main/col1/lif.gif) no-repeat 8px 5px;
+            }
+
+            #main > div.col1 > ul > li.r7 > a {
+                background: url(main/col1/flickr.gif) no-repeat 8px 5px;
+            }
+
+            #main > div.col1 > ul > li.r8 > a {
+                background: url(main/col1/answ.gif) no-repeat 8px 5px;
+            }
+
+            #main > div.col1 > ul > li.r9 > a {
+                background: url(main/col1/games.gif) no-repeat 8px 5px;
+            }
+
+            #main > div.col1 > ul > li.r10 > a {
+                background: url(main/col1/groups.gif) no-repeat 8px 5px;
+            }
+
+            #main > div.col1 > ul > li.r11 > a {
+                background: url(main/col1/mess.gif) no-repeat 8px 5px;
+            }
+
+            #main > div.col1 > ul > li.r12 > a {
+                background: url(main/col1/arabic.gif) no-repeat 8px 5px;
+            }
+
+            #main > div.col1 > ul > li.r13 > a {
+                background: url(main/col1/real.gif) no-repeat 8px 5px;
+            }
+
+            #main > div.col1 > ul > li.r14 > a {
+                background: url(main/col1/arabick.png) no-repeat 8px 5px;
+            }
+
+            #main > div.col1 > ul > li.r15 > a {
+                background: url(main/col1/face.gif) no-repeat 8px 5px;
+            }
+
+            #main > div.col1 > ul > li.r16 > a {
+                background: url(main/col1/twitter.png) no-repeat 8px 5px;
+            }
+
+            #main > div.col1 > ul > li.r17 > a {
+                background: url(main/col1/emp.png) no-repeat 8px 5px;
+                color: #bbb;
+                border-bottom: 0;
+            }
+
+                #main > div.col1 > ul > li.r17 > a:hover {
+                    color: #448;
+                    text-decoration: none;
+                }
+
+    #main > div.col2 img, #main > div.col2 > div.r1 a {
+        display: block;
+    }
+
+    #main > div.col2 {
+        float: left;
+    }
+
+        #main > div.col2 > div.r1 {
+            width: 398px;
+            border: 1px solid #ccc;
+            margin: 0 8px;
+            position: relative;
+            padding-top: 255px;
+        }
+
+            #main > div.col2 > div.r1 > ul {
+                list-style-type: none;
+            }
+
+                #main > div.col2 > div.r1 > ul > li > a.a1 {
+                    width: 100px;
+                    height: 73px;
+                    text-align: center;
+                    font-size: 11px;
+                    text-decoration: none;
+                    background: url(main/col2/bga1.png) repeat-x;
+                    color: #448;
+                    border-top: 1px solid #ccc;
+                    border-bottom: 1px solid #ccc;
+                    padding-top: 7px;
+                }
+
+                #main > div.col2 > div.r1 > ul > li > a.small {
+                    width: 99px;
+                }
+
+                #main > div.col2 > div.r1 > ul > li > a.fst {
+                    background: url(main/col2/bga1h.png) repeat-x;
+                    color: #fff;
+                }
+
+                #main > div.col2 > div.r1 > ul > li:hover > a.a1 {
+                    background: url(main/col2/bga1h.png) repeat-x;
+                    color: #fff;
+                }
+
+                #main > div.col2 > div.r1 > ul > li > a.a1:hover {
+                    text-decoration: underline;
+                }
+
+                #main > div.col2 > div.r1 > ul > li > a.a1 > span {
+                    display: block;
+                    width: 70px;
+                    margin: 0 auto;
+                }
+
+                #main > div.col2 > div.r1 > ul > li > a.a1 > img {
+                    border: 2px solid #fff;
+                    margin: 0 auto;
+                }
+
+                #main > div.col2 > div.r1 > ul > li > div > a.a2 {
+                    color: #358;
+                    text-decoration: none;
+                    font-size: 18px;
+                    font-weight: bold;
+                    width: 373px;
+                    margin: 0 auto;
+                }
+
+                    #main > div.col2 > div.r1 > ul > li > div > a.a2:hover {
+                        text-decoration: underline;
+                    }
+
+                #main > div.col2 > div.r1 > ul > li > div > img {
+                    margin: 0 auto;
+                }
+
+                #main > div.col2 > div.r1 > ul > li > div > div.c1 {
+                    float: left;
+                    width: 210px;
+                    margin: 10px 15px 20px 10px;
+                }
+
+                #main > div.col2 > div.r1 > ul > li > div > div.c2 {
+                    float: left;
+                    width: 150px;
+                    border-left: 1px solid #bbb;
+                    margin: 10px 0 20px 10px;
+                }
+
+                    #main > div.col2 > div.r1 > ul > li > div > div.c2 > ul {
+                        list-style-image: url(main/col2/point.png);
+                        padding-left: 20px;
+                    }
+
+                        #main > div.col2 > div.r1 > ul > li > div > div.c2 > ul > li > a {
+                            text-decoration: none;
+                            color: #448;
+                            font-size: 11px;
+                        }
+
+                            #main > div.col2 > div.r1 > ul > li > div > div.c2 > ul > li > a:hover {
+                                text-decoration: underline;
+                            }
+
+                #main > div.col2 > div.r1 > ul > li > div {
+                    height: 253px;
+                    position: absolute;
+                    left: 1px;
+                    top: 2px;
+                    background: #fff;
+                }
+
+                    #main > div.col2 > div.r1 > ul > li > div.first {
+                        z-index: 10;
+                    }
+
+                #main > div.col2 > div.r1 > ul > li:hover > div {
+                    z-index: 20;
+                }
+
+                #main > div.col2 > div.r1 > ul > li {
+                    float: left;
+                }
+
+            #main > div.col2 > div.r1 > div.foot {
+                height: 23px;
+                background: #f8f8f8;
+                color: #777;
+            }
+
+                #main > div.col2 > div.r1 > div.foot > span {
+                    display: block;
+                    float: left;
+                    padding: 4px 0 0 10px;
+                    font-size: 11px;
+                }
+
+                #main > div.col2 > div.r1 > div.foot > a {
+                    display: block;
+                    float: right;
+                    margin: 3px 5px 0 0;
+                    width: 70px;
+                    height: 15px;
+                    background: url(main/col2/nextpr.png) no-repeat;
+                }
+
+        #main > div.col2 > div.r2 {
+            width: 398px;
+            height: 275px;
+            border: 1px solid #ccc;
+            margin: 10px 8px;
+        }
+
+            #main > div.col2 > div.r2 > a.nws {
+                display: block;
+                float: left;
+                font-size: 11px;
+                font-weight: bold;
+                color: #448;
+                text-decoration: none;
+                padding: 6px 10px 0 10px;
+            }
+
+            #main > div.col2 > div.r2 > ul.top {
+                float: left;
+                list-style-type: none;
+                border-bottom: 1px solid #ccc;
+                width: 345px;
+                background: #f8f8f8;
+            }
+
+                #main > div.col2 > div.r2 > ul.top > li {
+                    float: left;
+                }
+
+                    #main > div.col2 > div.r2 > ul.top > li > a.a {
+                        padding: 6px 10px;
+                        display: block;
+                        float: left;
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 11px;
+                        font-weight: bold;
+                        color: #448;
+                        border-left: 1px solid #f8f8f8;
+                        border-right: 1px solid #f8f8f8;
+                    }
+
+                    #main > div.col2 > div.r2 > ul.top > li > a.frs {
+                        border-left-color: #ccc;
+                    }
+
+                    #main > div.col2 > div.r2 > ul.top > li > a.a:hover {
+                        background: #fff;
+                        border-left-color: #ccc;
+                        border-right-color: #ccc;
+                    }
+
+                    #main > div.col2 > div.r2 > ul.top > li.b {
+                        float: right;
+                    }
+
+                    #main > div.col2 > div.r2 > ul.top > li > a.b {
+                        float: right;
+                        width: 17px;
+                        height: 16px;
+                        background: #f7f7f7 url(main/col2/flsh.png) no-repeat center center;
+                        border: 1px solid #ccc;
+                        margin-right: 2px;
+                        margin-top: 4px;
+                    }
+
+                        #main > div.col2 > div.r2 > ul.top > li > a.b:hover {
+                            background: #fff url(main/col2/flsh.png) no-repeat center center;
+                        }
+
+            #main > div.col2 > div.r2 > ul.down {
+                list-style-position: inside;
+                padding: 10px 0 0 10px;
+            }
+
+            #main > div.col2 > div.r2 > ul.down {
+                list-style-image: url(main/col2/point.png);
+            }
+
+                #main > div.col2 > div.r2 > ul.down > li > a {
+                    color: #448;
+                    font-size: 13px;
+                    text-decoration: none;
+                    line-height: 1.5em;
+                }
+
+                    #main > div.col2 > div.r2 > ul.down > li > a:hover {
+                        text-decoration: underline;
+                    }
+
+            #main > div.col2 > div.r2 > span {
+                display: block;
+                color: #999;
+                font-size: 11px;
+                padding: 10px 0 0 10px;
+            }
+
+    #main > div.col3 {
+        float: left;
+    }
+
+        #main > div.col3 > div.r1 > div.row {
+            width: 348px;
+            border: 1px solid #ccc;
+            margin-left: 3px;
+        }
+
+        #main > div.col3 > div.r1 > div.row1 > div.col1 {
+            float: left;
+            width: 171px;
+        }
+
+            #main > div.col3 > div.r1 > div.row1 > div.col1 > h4 {
+                font-size: 13px;
+                font-weight: bold;
+                padding: 8px 0 14px 9px;
+                color: #333;
+            }
+
+        #main > div.col3 > div.r1 > div.row1 > div > a.img {
+            display: block;
+            width: 150px;
+            height: 75px;
+        }
+
+        #main > div.col3 > div.r1 > div.row1 > div.col1 > a.img1 {
+            background: url(main/col3/Lower.jpg) no-repeat center center;
+            margin-left: 11px;
+        }
+
+        #main > div.col3 > div.r1 > div.row1 > div > a.pr {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            font-size: 13px;
+            color: #448;
+        }
+
+        #main > div.col3 > div.r1 > div.row1 > div.col1 > a.pr {
+            width: 150px;
+            padding: 3px 0 0 11px;
+        }
+
+        #main > div.col3 > div.r1 > div.row1 > div > a.pr:hover {
+            text-decoration: underline;
+        }
+
+        #main > div.col3 > div.r1 > div.row1 > div.col2 {
+            float: left;
+            width: 150px;
+            margin-left: 15px;
+            background: url(main/col3/home.png) no-repeat 53px 9px;
+        }
+
+            #main > div.col3 > div.r1 > div.row1 > div.col2 > a.img2 {
+                background: url(main/col3/SpilledTea.jpg) no-repeat center center;
+            }
+
+            #main > div.col3 > div.r1 > div.row1 > div.col2 > a.mvid {
+                display: block;
+                width: 80px;
+                font-size: 13px;
+                font-weight: bold;
+                color: #333;
+                text-decoration: none;
+                margin: 8px 0 14px 78px;
+            }
+
+                #main > div.col3 > div.r1 > div.row1 > div.col2 > a.mvid:hover {
+                    text-decoration: underline;
+                }
+
+            #main > div.col3 > div.r1 > div.row1 > div.col2 > a.pr {
+                width: 117px;
+                padding: 3px 0 0 17px;
+            }
+
+        #main > div.col3 > div.r1 > div.row2 {
+            background: #f8f8f8;
+            border-top: 0;
+        }
+
+            #main > div.col3 > div.r1 > div.row2 > span {
+                display: block;
+                float: left;
+                font-size: 11px;
+                width: 30px;
+                color: #777;
+                padding: 4px 0 3px 10px;
+            }
+
+            #main > div.col3 > div.r1 > div.row2 > a {
+                display: block;
+                float: right;
+                width: 47px;
+                height: 15px;
+                background: url(main/col3/nxpr.png);
+                margin: 3px 4px 0 0;
+            }
+
+        #main > div.col3 > div.r2 > a {
+            display: block;
+            width: 300px;
+            height: 250px;
+            background: url(main/col3/yahoo.jpg);
+            margin: 10px 0 13px 28px;
+        }
+
+        #main > div.col3 > div.r3 {
+            width: 348px;
+            border: 1px solid #ccc;
+            margin-left: 3px;
+            padding: 10px 0 11px 0;
+        }
+
+            #main > div.col3 > div.r3 > div.c1 {
+                width: 174px;
+                float: left;
+            }
+
+            #main > div.col3 > div.r3 > div.c2 {
+                width: 174px;
+                float: left;
+            }
+
+            #main > div.col3 > div.r3 > h4 {
+                font-size: 13px;
+                font-weight: bold;
+                padding-left: 10px;
+                color: #333;
+            }
+
+            #main > div.col3 > div.r3 > div > a {
+                display: block;
+                float: left;
+                width: 110px;
+                text-decoration: none;
+                font-size: 11px;
+                color: #777;
+                padding: 11px 0 0 62px;
+                line-height: 15px;
+            }
+
+            #main > div.col3 > div.r3 > div.c1 > a {
+                background: url(main/col3/omgi.gif) no-repeat 10px 12px;
+            }
+
+            #main > div.col3 > div.r3 > div.c2 > a {
+                background: url(main/col3/mmo.jpg) no-repeat 8px 12px;
+            }
+
+            #main > div.col3 > div.r3 > div > a > span {
+                font-size: 11px;
+                color: #448;
+                font-weight: bold;
+            }
+
+            #main > div.col3 > div.r3 > div.c1 > a:hover > span {
+                text-decoration: underline;
+            }
+
+            #main > div.col3 > div.r3 > div > a:hover {
+                text-decoration: underline;
+            }
+
+        #main > div.col3 > div.r4 {
+            width: 348px;
+            border: 1px solid #ccc;
+            margin: 10px 0 0 3px;
+        }
+
+            #main > div.col3 > div.r4 > a.abu {
+                display: block;
+                width: 89px;
+                text-decoration: none;
+                color: #333;
+                margin: 4px 0 5px 10px;
+                padding-right: 16px;
+                background: url(main/col3/bgabu.png) no-repeat right center;
+            }
+
+                #main > div.col3 > div.r4 > a.abu:hover {
+                    text-decoration: underline;
+                }
+
+            #main > div.col3 > div.r4 > a.wtr {
+                display: block;
+                float: left;
+                font-size: 11px;
+                font-weight: bold;
+                color: #448;
+                text-decoration: none;
+                padding: 6px 10px 0 10px;
+                border-bottom: 1px solid #fff;
+                border-top: 1px solid #ccc;
+            }
+
+            #main > div.col3 > div.r4 > ul {
+                float: left;
+                list-style-type: none;
+                border-bottom: 1px solid #ccc;
+                border-top: 1px solid #ccc;
+                width: 272px;
+                background: #f8f8f8;
+            }
+
+                #main > div.col3 > div.r4 > ul > li > a {
+                    padding: 6px 10px;
+                    display: block;
+                    float: left;
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: 11px;
+                    font-weight: bold;
+                    color: #448;
+                    border-left: 1px solid #ccc;
+                    border-right: 1px solid #ccc;
+                }
+
+                    #main > div.col3 > div.r4 > ul > li > a:hover {
+                        background: #fff;
+                    }
+
+        #main > div.col3 > div.r4 {
+            position: relative;
+        }
+
+            #main > div.col3 > div.r4 > div.down {
+                color: #777;
+                font-size: 11px;
+                margin: 10px;
+            }
+
+                #main > div.col3 > div.r4 > div.down > div.pic {
+                    width: 74px;
+                    height: 53px;
+                    background: url(main/col3/wea.png);
+                    position: absolute;
+                    top: 81px;
+                    left: 0;
+                }
+
+                #main > div.col3 > div.r4 > div.down > div.c1 {
+                    float: left;
+                    padding: 0 23px 45px 0;
+                }
+
+                #main > div.col3 > div.r4 > div.down > div.c {
+                    float: left;
+                    border-left: 1px solid #ccc;
+                    text-align: center;
+                }
+
+                #main > div.col3 > div.r4 > div.down > div.c2 {
+                    padding: 0 17px 0 19px;
+                    background: #fff url(main/col3/month.png) no-repeat 25px 27px;
+                }
+
+                #main > div.col3 > div.r4 > div.down > div.c3 {
+                    padding: 0 10px 0 10px;
+                    background: #fff url(main/col3/sun.png) no-repeat 21px 24px;
+                }
+
+                #main > div.col3 > div.r4 > div.down > div.c4 {
+                    padding-left: 12px;
+                    background: #fff url(main/col3/sun.png) no-repeat 21px 24px;
+                }
+
+                #main > div.col3 > div.r4 > div.down > div.c1 > span {
+                    display: block;
+                    font-size: 20px;
+                    color: #333;
+                    margin: 5px 0 0 64px;
+                }
+
+                #main > div.col3 > div.r4 > div.down > div.c > span {
+                    display: block;
+                    padding-top: 43px;
+                }
+
+        #main > div.col3 > div.r5 {
+            width: 348px;
+            border: 1px solid #ccc;
+            margin: 10px 0 0 3px;
+            background: url(main/col3/home.png) no-repeat 279px 9px;
+        }
+
+            #main > div.col3 > div.r5 > div.row1 > h4 {
+                float: left;
+            }
+
+            #main > div.col3 > div.r5 > div.row1 > a {
+                display: block;
+                float: right;
+                color: #333;
+                text-decoration: none;
+            }
+
+                #main > div.col3 > div.r5 > div.row1 > a:hover {
+                    text-decoration: underline;
+                }
+
+            #main > div.col3 > div.r5 > div.row1 {
+                color: #333;
+                font-size: 13px;
+                font-weight: bold;
+                padding: 8px 7px 0 9px;
+            }
+
+            #main > div.col3 > div.r5 > div.row2 > div.c {
+                float: left;
+                width: 150px;
+            }
+
+            #main > div.col3 > div.r5 > div.row2 > div.c1 {
+                padding-right: 25px;
+            }
+
+            #main > div.col3 > div.r5 > div.row2 > div.c2 {
+                width: 161px;
+            }
+
+            #main > div.col3 > div.r5 > div.row2 > div.c > a.a1 {
+                display: block;
+                width: 150px;
+                height: 75px;
+                margin: 14px 0 3px 11px;
+            }
+
+            #main > div.col3 > div.r5 > div.row2 > div.c1 > a.a1 {
+                background: url(main/col3/win.jpg);
+            }
+
+            #main > div.col3 > div.r5 > div.row2 > div.c2 > a.a1 {
+                background: url(main/col3/metro.jpg);
+            }
+
+            #main > div.col3 > div.r5 > div.row2 > div.c > a.a2 {
+                display: block;
+                text-decoration: none;
+                text-align: center;
+                font-size: 13px;
+                color: #448;
+            }
+
+            #main > div.col3 > div.r5 > div.row2 > div.c1 > a.a2 {
+                margin-left: 11px;
+                width: 150px;
+            }
+
+            #main > div.col3 > div.r5 > div.row2 > div.c2 > a.a2 {
+                margin-left: 12px;
+            }
+
+            #main > div.col3 > div.r5 > div.row2 > div.c > a.a2:hover {
+                text-decoration: underline;
+            }
+
+            #main > div.col3 > div.r5 > div.row3 {
+                border-top: 1px solid #ccc;
+                background: #f8f8f8;
+            }
+
+                #main > div.col3 > div.r5 > div.row3 > span {
+                    display: block;
+                    float: left;
+                    font-size: 11px;
+                    width: 30px;
+                    color: #777;
+                    padding: 4px 0 3px 10px;
+                }
+
+                #main > div.col3 > div.r5 > div.row3 > a {
+                    display: block;
+                    float: right;
+                    width: 47px;
+                    height: 15px;
+                    background: url(main/col3/nxpr.png);
+                    margin: 3px 4px 0 0;
+                }
+
+#down {
+    width: 959px;
+    height: 180px;
+    margin: 10px auto 9px auto;
+    background: url(down/bgdown.png) repeat-x;
+    border: 1px solid #ccc;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+    #down h4 {
+        font-size: 13px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    #down a {
+        text-decoration: none;
+        color: #448;
+        font-size: 11px;
+    }
+
+        #down a:hover {
+            text-decoration: underline;
+        }
+
+    #down ul {
+        list-style-position: inside;
+        list-style-image: url(main/col2/point.png);
+    }
+
+    #down > div.c1 > ul.u1 > li {
+        width: 167px;
+    }
+
+    #down > div.c1 > ul.u2 > li {
+        width: 165px;
+    }
+
+    #down > div.c1 > ul.u3 > li {
+        width: 166px;
+    }
+
+    #down > div.c1 > ul.u4 > li {
+        width: 167px;
+    }
+
+    #down ul > li {
+        padding-top: 3px;
+    }
+
+    #down > div.c1 {
+        float: left;
+    }
+
+        #down > div.c1 > ul {
+            float: left;
+        }
+
+    #down > div.c2 {
+        padding-left: 20px;
+        float: left;
+        border-left: 1px solid #ccc;
+    }
+
+        #down > div.c2 > ul.u5 {
+            font-size: 11px;
+            float: left;
+            width: 66px;
+        }
+
+            #down > div.c2 > ul.u5 > li {
+                padding-top: 5px;
+                color: #444;
+            }
+
+        #down > div.c2 > a.a {
+            display: block;
+            float: left;
+            width: 18px;
+            height: 18px;
+            margin: 3px;
+        }
+
+        #down > div.c2 > a.fb {
+            background: url(main/col1/face.gif);
+        }
+
+        #down > div.c2 > a.tw {
+            margin-left: 4px;
+            background: url(main/col1/twitter.png);
+        }
+
+        #down > div.c2 > h4.hb {
+            padding-top: 11px;
+        }
+
+        #down > div.c2 > ul.u7 {
+            float: left;
+            width: 123px;
+        }
+
+        #down > div.c2 > ul.u8 {
+            float: left;
+            width: 102px;
+        }
+
+        #down > div.c2 > a.b {
+            display: block;
+            float: left;
+            margin-top: 4px;
+            border-left: 1px solid #ccc;
+            padding-left: 7px;
+        }
+
+        #down > div.c2 > h4.hc {
+            margin-top: 10px;
+        }
+
+#food > span {
+    display: block;
+    color: #666;
+    width: 220px;
+    font-size: 11px;
+    margin: 13px auto 2px auto;
+    padding-bottom: 2px;
+}
+
+#food > div.final {
+    width: 300px;
+    margin: 0 auto;
+    padding-left: 18px;
+}
+
+#food > div > ul.u1 {
+    list-style-type: none;
+    float: left;
+}
+
+#food > div > ul.u2 {
+    list-style-position: inside;
+    list-style-image: url(main/col2/point.png);
+    float: left;
+    margin-left: 5px;
+    width: 118px;
+}
+
+#food > div > ul > li > a {
+    text-decoration: none;
+    color: #448;
+    font-size: 11px;
+}
+
+    #food > div > ul > li > a:hover {
+        text-decoration: underline;
+    }
